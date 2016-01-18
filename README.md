@@ -4,11 +4,10 @@ A new user registers and logs into the application and registerd user password s
 
 ## Technologies Used:
 ```
-
-*) `Node.js`
-*) `Express.js`
-*) `Mongoose`
-*) `Modulus (Online database)`
+1) Node.js
+2) Express.js
+3) Mongoose
+4) Modulus (Online database)
 ```
 
 ## Sample flow of control:
@@ -17,9 +16,9 @@ localhost:8080/
         --> welcome  -------> register new user ---------------------> authenticate route ---> save user
             |
             |
-            |         |-----------> login successful
-            |         |         |
-            ------------->  login route       |--> home page
+            |         |-----------> login successful ----> home page
+            |         |         
+            ----------->  login route       
                       |
                       |----> error page on login page
 ```
