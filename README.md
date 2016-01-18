@@ -4,10 +4,11 @@ A new user registers and logs into the application and registerd user password s
 
 ## Technologies Used:
 ```
-1) `Node.js`
-2) `Express.js`
-3) `Mongoose`
-4) `Modulus (Online database)`
+
+*) `Node.js`
+*) `Express.js`
+*) `Mongoose`
+*) `Modulus (Online database)`
 ```
 
 ## Sample flow of control:
@@ -24,16 +25,14 @@ localhost:8080/
 ```
 
 ## Example
- 
+```
 >npm install
 
 >nodemon server.js
 
-```
-url
+url:
 
 http://localhost:8080  - Login/Register page
-
 ```
 
 ## Documentation
