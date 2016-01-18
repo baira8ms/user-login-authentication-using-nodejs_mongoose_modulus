@@ -2,7 +2,8 @@
 
 A new user registers and logs into the application and registerd user password saves as hash value.
 
-``` Technologies Used:
+## Technologies Used:
+```
 1) `Node.js`
 2) `Express.js`
 3) `Mongoose`
@@ -28,7 +29,8 @@ localhost:8080/
 
 >nodemon server.js
 
-```url
+```
+url
 
 http://localhost:8080  - Login/Register page
 
