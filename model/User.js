@@ -16,7 +16,6 @@ User.pre('save', function(next) {
 	var user = this;
 // Hash the password only if the password has been changed or user is new
 if (!user.isModified('password')) return next();
-
  // generate the hash
  user.password = hashing.hashPassword(user.password);
 
@@ -25,7 +24,7 @@ if (!user.isModified('password')) return next();
 
 User.methods.comparePassword = function(password) {
 	var user = this;
-	return bcrypt.compareSync(password, user.password);
+	return bcrypt.compareSync(password,user.password);
 };
 
 module.exports = mongoose.model("User",User);
