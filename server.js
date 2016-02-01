@@ -39,8 +39,8 @@ app.get("/",function(req,res){
  	//res.redirect("/api/login");
  	if(req.session.sessData)
  	{
- 		//res.sendFile(path.join(__dirname,"./html/home.html"));
- 		res.json({message:'welcome, '+req.session.sessData.username});
+ 		res.sendFile(path.join(__dirname,"./html/home.html"));
+ 		//res.json({message:'welcome, '+req.session.sessData.username});
  	} else{
  		
 	 	res.sendFile(path.join(__dirname,"./html/login.html"));
